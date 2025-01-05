@@ -1,0 +1,11 @@
+---
+name: NetLogo
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: |
+  This app will launch a [NetLogo] GUI on the [Benefit cluster]. You will be able
+  to interact with the NetLogo GUI through a VNC session.
+
+  [NetLogo]: https://ccl.northwestern.edu/netlogo/index.shtml
+  [Benefit cluster]: https://ailab.uob.edu.bh

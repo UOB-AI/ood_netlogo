@@ -1,0 +1,17 @@
+---
+cluster: "hayrat"
+form:
+  - bc_num_hours
+  - selected_partition
+  - bc_vnc_resolution
+attributes:
+  bc_vnc_resolution:
+    required: true
+  selected_partition:
+    label: "Partition"
+    widget: "select"
+    options:
+      - ["Compute (Max number of nodes 8, maximum time allowed 24 hours, Intel CPUs, Nvidia T4 GPUs)", "compute"]
+      - ["GPU (Max number of nodes 2, maximum time allowed 72 hours, AMD CPUs, Nvidia A100 GPUs)", "gpu"]
+      - ["Standard (Max number of nodes 4, maximum time allowed 12 hours, Intel CPUs, Nvidia T4 GPUs)", "standard"]
+
